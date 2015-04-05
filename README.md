@@ -1,13 +1,14 @@
-# CS-4320-Internet-Programming
-Python programming projects for CS 4320 (Kennesaw State University). Projects are based on python and Unix environments, as well as other web scripting languages.  
+Internet Programming
 
 Client/Server Using Sockets
 
-Create two Python scripts: one a server; the other a client that will use the server. You will use the loan function module you created in the last assignment. Do not include those functions directly into your server code, but import them into the server.1
+Two Python scripts: one a server; the other a client that will use the server. 
+
+The loan function module is used.
 
 Server
 
-The server will listen on port 12321. It will carry out loan computations using the functions you created in Assignment #1. Requests are in one of two formats:
+The server will listen on port 12321. It will carry out loan computations using the loan module.
 
 Payment format: The request is a string beginning with capital ‘P’ and followed by an initial balance, a single space, an annual interest rate (in decimal), a single space and a number of months.
 Balance format: The request is a string beginning with capital ‘B” and followed by a month number, a single space, an initial balance, a single space, an annual interest rate (in decimal), a single space and the monthly payment
@@ -48,5 +49,4 @@ for a loan with an initial balance of $10,000 borrowed at an annual rate of 10% 
 
 The client will send a payment request to the server with the given input parameters. Then, the client will take the payment amount and send to the server a balance request where the month number is one more than the term of the loan. The client should print the payment amount (suitably labeled) formatted to two decimal places. The client should print the balance amount (suitably labeled) as received.
 
-Note that, with sane input, the balance printed should be very close to 0.
 
