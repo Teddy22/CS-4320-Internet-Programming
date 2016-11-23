@@ -1,11 +1,5 @@
 __author__ = 'Teddy'
 
-# new comment
-
-# newer comment
-
-# newest comment
-
 import socket
 import sys
 
