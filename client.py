@@ -1,13 +1,5 @@
 __author__ = 'Teddy'
 
-# new stuff by Teddy
-
-# Newer stuff by Teddy
-
-# And more stuff
-
-# And even more
-
 import socket
 import sys
 
