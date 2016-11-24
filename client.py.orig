@@ -1,7 +1,16 @@
 __author__ = 'Teddy'
 
+<<<<<<< HEAD
+# new comment
+
+# newer comment
+
+# newest comment
+
 # most newest comment
 
+=======
+>>>>>>> cd5aee45aaea4793f2221bf71d483ae42a6418ac
 import socket
 import sys
 
