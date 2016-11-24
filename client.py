@@ -1,6 +1,6 @@
 __author__ = 'Teddy'
 
-# most newest comment yet
+# most common thing newest comment yet
 
 import socket
 import sys
