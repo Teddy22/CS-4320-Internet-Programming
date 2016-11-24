@@ -1,7 +1,7 @@
 __author__ = 'Teddy'
 
 # most common thing newest comment yet
-print('that stuff')
+
 import socket
 import sys
 
